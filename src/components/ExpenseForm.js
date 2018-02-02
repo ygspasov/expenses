@@ -67,7 +67,7 @@ export default class ExpenseForm extends Component {
                     onChange={this.onDescriptionChange}
                 />
                 <input
-                    type="number"
+                    type="text"
                     className="text-input"
                     placeholder="Amount"
                     value={this.state.amount}
